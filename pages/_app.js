@@ -1,0 +1,6 @@
+import "../styles/auth.css";
+import "../styles/dashboard.css";
+
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />;
+}

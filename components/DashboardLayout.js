@@ -20,7 +20,7 @@ export default function DashboardLayout({ children, role }) {
           </>
         )}
 
-        <a onClick={() => signOut()} style={{ cursor: "pointer" }}>Logout</a>
+        <a onClick={() => signOut({ callbackUrl: "/login" })} style={{ cursor: "pointer" }}> Logout </a>
       </div>
 
       <div className="content">

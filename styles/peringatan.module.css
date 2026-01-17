@@ -1,0 +1,73 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed, #2563eb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.2);
+}
+
+.code {
+  font-size: 64px;
+  font-weight: 800;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.text {
+  color: #4b5563;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btnPrimary {
+  background: #4f46e5;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.btnPrimary:hover {
+  background: #4338ca;
+}
+
+.btnDanger {
+  background: #ef4444;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btnDanger:hover {
+  background: #dc2626;
+}
